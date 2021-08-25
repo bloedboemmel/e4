@@ -1,4 +1,4 @@
-# Hi Steinbock-Fans,
+# Hi E4,
 <!-- BEGIN UPDATINGSUMMARY BOARD-->
 this is a plot of the official Visitor-Numbers of [Steinbock Nürnberg](https://www.dersteinbock-nuernberg.de/), [Steinbock Zirndorf](https://www.dersteinbock-zirndorf.de/), [Steinbock Konstanz](https://www.dersteinbock-konstanz.de/) and [Steinbock Passau](https://www.dersteinbock-passau.de/)
 <!-- END UPDATINGSUMMARY BOARD-->
@@ -29,7 +29,7 @@ this is a plot of the official Visitor-Numbers of [Steinbock Nürnberg](https://
 
 ## It hasn't updated for a long time...
 This is a GitHub-Issue with cron. They are aware of it and so am I. 
-If you can't wait, [press here!](https://github.com/bloedboemmel/Steinbock/issues/new?title=Steinbock%3AUpdate%20Yourself%21&body=Please+do+not+change+the+title.+Just+click+"Submit+new+issue".+You+don't+need+to+do+anything+else+%3AD)
+If you can't wait, [press here!](https://github.com/bloedboemmel/e4/issues/new?title=E4%3AUpdate%20Yourself%21&body=Please+do+not+change+the+title.+Just+click+"Submit+new+issue".+You+don't+need+to+do+anything+else+%3AD)
 
 ## Is this really the correct data?
 Yes, it is the same data, which is used on their own websites, but a little more info!
@@ -37,8 +37,8 @@ Yes, it is the same data, which is used on their own websites, but a little more
 ## Wait! The average graph is the same like the now graph?!
 Yes, that's for the first weeks till my bot collects more and more average-data
 
-## I'm missing a feature! Or I found a new Steinbock!
-Feel free to fork it and try to add your feature/Steinbock yourself. Or [open an issue!](https://github.com/bloedboemmel/Steinbock/issues/new)
+## I'm missing a feature! Or I found a new e4-gym!
+Feel free to fork it and try to add your feature/E4 yourself. Or [open an issue!](https://github.com/bloedboemmel/boulderado/issues/new)
 
 ## What is planned for the future?
 Also i'm planning to train an AI to predict the visitor-numbers depending on weather, user-data, holidays, events, etc.
