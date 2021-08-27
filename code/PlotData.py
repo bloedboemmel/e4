@@ -77,6 +77,7 @@ def main(Stadt):
         Stadt.pngfile = f'./png/{Stadt.ShortForm}{now.strftime("%H_%M_%S")}.png'
         for filename in glob.glob(f'./png/{Stadt.ShortForm}*'):
             os.remove(filename)
+            os.system(f'git rm --cached {filename}')
         fig.savefig(Stadt.pngfile)
         Stadt.belegung = belegung[-1]
         plt.close()

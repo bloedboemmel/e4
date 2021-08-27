@@ -41,8 +41,7 @@ def write_average(Anteil, Stadt):
     dayname = calendar.day_name[my_date.weekday()]
     with open(f'days/{Stadt.ShortForm}/{dayname}.txt') as file:
         d = json.load(file)
-
-    #####################d[datetime.now(tz).replace(minute=((datetime.now(tz).minute // 15) * 15)).strftime("%H:%M")].append(Anteil)
+    d[datetime.now(tz).replace(minute=((datetime.now(tz).minute // 15) * 15)).strftime("%H:%M")].append(Anteil)
 
     with open(f'days/{Stadt.ShortForm}/{dayname}.txt', 'w') as outfile:
         json.dump(d, outfile)

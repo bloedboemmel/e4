@@ -1,10 +1,13 @@
 import calendar
+import glob
 import json
 import os
-from datetime import datetime
+import sys
+from datetime import datetime, timedelta, date
 import pytz
 import numpy as np
 from scipy.interpolate import make_interp_spline
+import GetData
 import matplotlib
 import matplotlib.pyplot as plt
 from city import city, getcsv
@@ -15,15 +18,15 @@ tz = pytz.timezone('Europe/Berlin')
 now = datetime.now(tz)
 weekday = now.weekday()
 
-
 def main(Stadt):
-    for my_date in range(0, 7):
+    for my_date in range(0,7):
         dayname = calendar.day_name[my_date]
         with open(f'days/{Stadt.ShortForm}/{dayname}.txt') as file:
             d = json.load(file)
 
         OldData = []
         OldTime = []
+        now = datetime.now(tz)
         for key in d.keys():
             if len(d[key]) != 0:
                 OldTime.append(datetime.strptime(key, "%H:%M").replace(year=now.year, month=now.month, day=now.day))
@@ -54,6 +57,7 @@ def main(Stadt):
             os.remove(Stadt.pngfile)
         fig.savefig(Stadt.pngfile)
         plt.close()
+
 
 
 def replace_img_name_days(original_text, Stadte):
@@ -96,12 +100,11 @@ def get_other_text(original_text, delimiter_a, delimiter_b):
 def write_to_readme(Stadt):
     with open('README.md', 'r', encoding='utf-8') as file:
         readme = file.read()
-        readme = replace_img_name_days(readme, Stadt)
+        readme = replace_img_name_days(readme,Stadt)
 
     with open('README.md', 'w', encoding='utf-8') as file:
         # Write new board & list of movements
         file.write(readme)
-
 
 if __name__ == '__main__':
     cities = []
@@ -110,3 +113,4 @@ if __name__ == '__main__':
         cities.append(cithere)
         main(cithere)
     write_to_readme(cities)
+    

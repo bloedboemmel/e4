@@ -1,5 +1,8 @@
 import csv
 import calendar
+import json
+import os
+from datetime import datetime, timedelta
 
 
 class city:
@@ -17,6 +20,36 @@ class city:
         for i in range(0,7):
             weekday = calendar.day_name[i]
             self.Times.append([int(Stadt[f"Open{weekday}"]), int(Stadt[f"Close{weekday}"])])
+        self.dummydays()
+
+    def dummydays(self):
+        if not os.path.exists('png'):
+            os.mkdir('png')
+        if not os.path.exists('png/OtherDays'):
+            os.mkdir('png/OtherDays')
+        if not os.path.exists('today'):
+            os.mkdir('today')
+        if not os.path.exists('days'):
+            os.mkdir('days')
+
+
+        if not os.path.exists(f'days/{self.ShortForm}'):
+            os.mkdir(f'days/{self.ShortForm}')
+        else:
+            return
+        for my_date in range(0, 7):
+            day = calendar.day_name[my_date]
+
+            n = {}
+            time = datetime.strptime(f"{self.Times[my_date][0]}:00", "%H:%M")
+            while time < datetime.strptime(f"{self.Times[my_date][1]}:00", "%H:%M"):
+                new_time = time.replace(minute=((time.minute // 15) * 15)).strftime("%H:%M")
+                if new_time not in n.keys() or len(n[new_time]) == 0:
+                    n[new_time] = []
+
+                time += timedelta(minutes=15)
+            with open(f'days/{self.ShortForm}/{day}.txt', 'w') as outfile:
+                json.dump(n, outfile)
 
 
 def getcsv():
