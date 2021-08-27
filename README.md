@@ -1,13 +1,13 @@
 # Hi E4,
 <!-- BEGIN UPDATINGSUMMARY BOARD-->
-this is a plot of the official Visitor-Numbers of [Steinbock Nürnberg](https://www.dersteinbock-nuernberg.de/), [Steinbock Zirndorf](https://www.dersteinbock-zirndorf.de/), [Steinbock Konstanz](https://www.dersteinbock-konstanz.de/) and [Steinbock Passau](https://www.dersteinbock-passau.de/)
+this is a plot of the official Visitor-Numbers of [E4 Nürnberg](https://www.boulderhalle-e4.de/)
 <!-- END UPDATINGSUMMARY BOARD-->
 ### Is it busy right now?
 <!-- BEGIN UPDATINGDATA BOARD-->
-| [Steinbock Nürnberg](https://www.dersteinbock-nuernberg.de/) | [Steinbock Zirndorf](https://www.dersteinbock-zirndorf.de/) | [Steinbock Konstanz](https://www.dersteinbock-konstanz.de/) | [Steinbock Passau](https://www.dersteinbock-passau.de/) |
-|:-:|:-:|:-:|:-:|
-| 55 out of 150 allowed visitors. --> 36% occupied! 42% more than average! | 46 out of 80 allowed visitors. --> 57% occupied! 271% less than average! | 26 out of 90 allowed visitors. --> 28% occupied! 122% less than average! | 30 out of 100 allowed visitors. --> 30% occupied! 252% less than average! |
-|<img src="./png/Nürnberg23_12_58.png">|<img src="./png/Zirndorf23_12_58.png">|<img src="./png/Konstanz23_12_58.png">|<img src="./png/Passau23_12_58.png">|
+| [E4 Nürnberg](https://www.boulderhalle-e4.de/) |
+|:-:|
+| 71 out of 200 allowed visitors. --> 35% occupied! 1% less than average! |
+|<img src="./png/e4Nürnberg18_47_13.png">|
 <!-- END UPDATINGDATA BOARD-->
 
 
