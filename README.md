@@ -15,15 +15,15 @@ this is a plot of the official Visitor-Numbers of [E4 Nürnberg](https://www.bou
   <summary>The average visitor data of the whole week</summary>
 
 <!-- BEGIN UPDATINGDAYSPNG BOARD-->
-| Steinbock Nürnberg | Steinbock Zirndorf | Steinbock Konstanz | Steinbock Passau |
-|:-:|:-:|:-:|:-:|
-|<img src="png/OtherDays/NürnbergMonday.png">|<img src="png/OtherDays/ZirndorfMonday.png">|<img src="./png/Working.png">|<img src="./png/Working.png">|
-|<img src="png/OtherDays/NürnbergTuesday.png">|<img src="png/OtherDays/ZirndorfTuesday.png">|<img src="./png/Working.png">|<img src="./png/Working.png">|
-|<img src="png/OtherDays/NürnbergWednesday.png">|<img src="png/OtherDays/ZirndorfWednesday.png">|<img src="png/OtherDays/KonstanzWednesday.png">|<img src="png/OtherDays/PassauWednesday.png">|
-|<img src="png/OtherDays/NürnbergThursday.png">|<img src="png/OtherDays/ZirndorfThursday.png">|<img src="./png/Working.png">|<img src="./png/Working.png">|
-|<img src="png/OtherDays/NürnbergFriday.png">|<img src="png/OtherDays/ZirndorfFriday.png">|<img src="./png/Working.png">|<img src="./png/Working.png">|
-|<img src="png/OtherDays/NürnbergSaturday.png">|<img src="png/OtherDays/ZirndorfSaturday.png">|<img src="./png/Working.png">|<img src="./png/Working.png">|
-|<img src="png/OtherDays/NürnbergSunday.png">|<img src="png/OtherDays/ZirndorfSunday.png">|<img src="./png/Working.png">|<img src="./png/Working.png">|
+| E4 Nürnberg |
+|:-:|
+|<img src="./png/Working.png">|
+|<img src="./png/Working.png">|
+|<img src="./png/Working.png">|
+|<img src="./png/Working.png">|
+|<img src="png/OtherDays/e4NürnbergFriday.png">|
+|<img src="./png/Working.png">|
+|<img src="./png/Working.png">|
 <!-- END UPDATINGDAYSPNG BOARD-->
 </details>
 
