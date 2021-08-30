@@ -23,7 +23,7 @@ this is a plot of the official Visitor-Numbers of [E4 Nürnberg](https://www.bou
 |<img src="./png/Working.png">|
 |<img src="png/OtherDays/e4NürnbergFriday.png">|
 |<img src="png/OtherDays/e4NürnbergSaturday.png">|
-|<img src="./png/Working.png">|
+|<img src="png/OtherDays/e4NürnbergSunday.png">|
 <!-- END UPDATINGDAYSPNG BOARD-->
 </details>
 
