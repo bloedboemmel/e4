@@ -18,7 +18,7 @@ this is a plot of the official Visitor-Numbers of [E4 Nürnberg](https://www.bou
 | E4 Nürnberg |
 |:-:|
 |<img src="png/OtherDays/e4NürnbergMonday.png">|
-|<img src="./png/Working.png">|
+|<img src="png/OtherDays/e4NürnbergTuesday.png">|
 |<img src="./png/Working.png">|
 |<img src="./png/Working.png">|
 |<img src="png/OtherDays/e4NürnbergFriday.png">|
