@@ -6,8 +6,8 @@ this is a plot of the official Visitor-Numbers of [E4 Nürnberg](https://www.bou
 <!-- BEGIN UPDATINGDATA BOARD-->
 | [E4 Nürnberg](https://www.boulderhalle-e4.de/) |
 |:-:|
-| 92 out of 250 allowed visitors. --> 36% occupied! 3% more than average! |
-|<img src="./png/e4Nürnberg15_21_57.png">|
+| 91 out of 250 allowed visitors. --> 36% occupied! 3% more than average! |
+|<img src="./png/e4Nürnberg15_36_06.png">|
 <!-- END UPDATINGDATA BOARD-->
 
 
